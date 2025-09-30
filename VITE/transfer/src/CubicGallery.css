@@ -1,0 +1,40 @@
+.header-container {
+  position: relative;
+}
+
+.button-container-top {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 200px;
+}
+
+.button-container-bottom {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 20px;
+}
+
+.portfolio-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #879102;
+}
+
+.logout-button {
+  width: auto;
+  padding: 8px 16px;
+  background-color: #1f1a01 !important;
+  color: #806c00 !important;
+  border: 2px solid #FFD700 !important;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c8f81c !important;
+  border-color: #dde659 !important;
+}

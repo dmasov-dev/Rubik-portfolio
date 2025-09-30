@@ -1,0 +1,18 @@
+.welcome-heading {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  transform: perspective(500px) rotateX(50deg) rotateY(0deg);
+  background: linear-gradient(180deg, #615f00 0%, #f5f840 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 2px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.welcome-heading:hover {
+  transform: perspective(500px) rotateX(10deg) rotateY(0deg);
+}
